@@ -159,3 +159,92 @@ if __name__ == "__main__":
     else:
       arena.team_one.revive_heroes()
       arena.team_two.revive_heroes()
+
+
+
+      def sum_list(numbers):
+        total = 0
+
+        for number in numbers:
+            total = total + number
+
+        return total
+      
+      fruits = ["apple", "banana"]
+      fruits.append("mango")
+
+      class Dog:
+        def __init__(self, name):
+          self.name = name
+
+        def bark(self)
+          print("Woof!")
+          
+    def square(n):
+      return n * n
+    
+    for fruit in fruits:
+      print(fruit)
+
+      class Hero:
+        def __init__(self, name):
+          self.name = name
+          self.abilities = list()
+
+        def add_ability(self, ability):
+          self.abilities.append(ability) 
+    
+        def attack(self):
+            total = 0
+
+            for ability in self.abilities:
+                total = total + ability
+
+            return total
+        
+        class Armor:
+
+         def __init__(self, block):
+          self.block = block
+
+         def block_damage(self):
+           return self.block
+         
+         def largest(numbers):
+           
+         def largest(numbers):
+           biggest = numbers[0]
+
+           for number in numbers:
+               if number > biggest:
+                   biggest = number
+
+           return biggest
+         
+         def is_even(n):
+           return n % 2 == 0
+         
+         for number in range(1, 6):
+             print(number)
+
+        def defend(self):
+            total = 0
+
+            for armor in self.armors:
+                total = total + armor
+
+            return total
+        
+        class Shield(Armor):
+
+         def __init__(self, block):
+             super().__init__(block)
+
+        
+        def defend(self):
+            total_block = 0
+
+            for armor in self.armors:
+                total_block += armor.block_damage()
+
+            return total_block
